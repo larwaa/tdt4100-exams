@@ -7,7 +7,7 @@ public class Dice implements Iterable<Integer>{
 
 	private static int EYES = 6;
 
-	private List<Integer> dice = new ArrayList<>();
+	private List<Integer> dieValues = new ArrayList<>();
 	private int score;
 
 	public Dice(Collection<Integer> dieValues, int score){
@@ -16,29 +16,31 @@ public class Dice implements Iterable<Integer>{
 			if (dieValue < 1 || dieValue > EYES){
 				throw new IllegalArgumentException();
 			}
-			dice.add(dieValue);
+			this.dieValues.add(dieValue);
 		}
 		this.score = score;
 	}
 
 	public Dice(int dieCount){
-		this(Dice.randomDieValues(dieCount), -1);
-
+		this(randomDieValues(dieCount), -1);
 	}
 
-	public Dice(Dice dice, int score){
+	public Dice(Dice dieValues, int score){
+		this(dieValues.dieValues, score);
 	}
 
 	public String toString(){
+		String s = dieValues.toString();
+		/*
 		String s = "[";
-		for (int dieValue : dice){
+		for (int dieValue : dieValues){
 			if (s.length() > 1){
 				s += ",";
 			}
 			s += dieValue;
 		}
 		s += "]";
-
+		*/
 		if (score >= 0) {
 			s += String.format("=%s", score);
 		}
@@ -66,28 +68,27 @@ public class Dice implements Iterable<Integer>{
 	}
 
 	public static Collection<Integer> randomDieValues(int dieCount){
-		Collection<Integer> dieCounts = new ArrayList<>();
+		Collection<Integer> dieValues = new ArrayList<>();
 
 		for (int i = 0; i < dieCount; i++){
-			dieCounts.add((int) ((Math.random() + 1) * EYES));
+			dieValues.add((int) (Math.random() * EYES + 1));
 		}
-
-		return dieCounts;
+		return dieValues;
 	}
 
 	public int getDieCount(){
-		return dice.size();
+		return dieValues.size();
 	}
 
 	public int getDieValue(int dieNum){
 		if (dieNum < 0 || dieNum >= getDieCount()){
 			throw new IllegalArgumentException();
 		}
-		return dice.get(dieNum);
+		return dieValues.get(dieNum);
 	}
 
 	public int getValueCount(int value){
-		return (int) dice.stream().filter((die) -> die == value).count();
+		return (int) dieValues.stream().filter((die) -> die == value).count();
 	}
 
 	public int getScore(){
@@ -105,7 +106,7 @@ public class Dice implements Iterable<Integer>{
 	}
 
 	public Iterator<Integer> iterator(){
-		return dice.iterator();
+		return dieValues.iterator();
 	}
 
 	public static void main(String[] args){
@@ -117,17 +118,17 @@ public class Dice implements Iterable<Integer>{
 	}
 
 	public Dice add(Dice dice){
-		List<Integer> tempList = new ArrayList<>(this.dice);
+		List<Integer> tempList = new ArrayList<>(this.dieValues);
 		dice.forEach(tempList::add);
 		return new Dice(tempList, -1);
 	}
 
 	private boolean contains(int value){
-		return dice.contains(value);
+		return dieValues.contains(value);
 	}
 
 	public Dice remove(Dice dice){
-		List<Integer> tempList = this.dice.stream()
+		List<Integer> tempList = this.dieValues.stream()
 										.filter(i -> ! dice.contains(i))
 										.collect(Collectors.toList());
 		return new Dice(tempList, -1);
