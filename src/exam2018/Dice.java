@@ -42,7 +42,7 @@ public class Dice implements Iterable<Integer>{
 		s += "]";
 		*/
 		if (score >= 0) {
-			s += String.format("=%s", score);
+			s += String.format(" = %s", score);
 		}
 		return s;
 	}
@@ -50,19 +50,19 @@ public class Dice implements Iterable<Integer>{
 	public static Dice valueOf(String diceString){
 		String[] diceStringArray = diceString.split("=");
 		String[] diceStringValues = diceStringArray[0]
-									.substring(1, diceStringArray[0].length() - 1)
+									.substring(1, diceStringArray[0].indexOf("]"))
 									.split(",");
 
 		int score = -1;
 
-		if (diceStringArray.length == 1){
-			score = Integer.parseInt(diceStringArray[1]);
+		if (diceStringArray.length == 2){
+			score = Integer.parseInt(diceStringArray[1].strip());
 		}
 
 		List<Integer> dieValues = new ArrayList<>();
 
 		for (String s : diceStringValues) {
-			dieValues.add(Integer.parseInt(s));
+			dieValues.add(Integer.parseInt(s.strip()));
 		}
 		return new Dice(dieValues, score);
 	}
@@ -109,14 +109,6 @@ public class Dice implements Iterable<Integer>{
 		return dieValues.iterator();
 	}
 
-	public static void main(String[] args){
-		//eksempelkode
-		Dice d1 = new Dice(5);
-		for (int dice : d1){
-			System.out.println(dice);
-		}
-	}
-
 	public Dice add(Dice dice){
 		List<Integer> tempList = new ArrayList<>(this.dieValues);
 		dice.forEach(tempList::add);
@@ -128,12 +120,26 @@ public class Dice implements Iterable<Integer>{
 	}
 
 	public Dice remove(Dice dice){
-		List<Integer> tempList = this.dieValues.stream()
-										.filter(i -> ! dice.contains(i))
-										.collect(Collectors.toList());
+		List<Integer> tempList = new ArrayList<>(this.dieValues);
+
+		for (Integer dieValue : dice){
+			tempList.remove(dieValue);
+		}
+
+		//List<Integer> tempList = this.dieValues.stream()
+		//								.filter(i -> ! dice.contains(i))
+		//								.collect(Collectors.toList());
 		return new Dice(tempList, -1);
 	}
 
 
-
+	public static void main(String[] args){
+		//eksempelkode
+		Dice d1 = new Dice(5);
+		d1.setScore(10);
+		System.out.println(valueOf(d1.toString()));
+		Dice d2 = new Dice(5);
+		System.out.println(d2);
+		System.out.println(d1.remove(d2));
+	}
 }

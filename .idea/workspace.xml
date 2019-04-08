@@ -2,7 +2,702 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa0625ed-4fc9-44ac-96cd-51f4e23eaaa8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/exam2018/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exam2018/Dice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/Minesweeper.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/MinesweeperTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/Test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/minegenkode.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/abstraktklasse/Bok.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/abstraktklasse/Card.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/abstraktklasse/CardContainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/abstraktklasse/CardDeck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/abstraktklasse/CardHand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/abstraktklasse/CardList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/abstraktklasse/Roman.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/abstraktklasse/Tegneseriealbum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/bilstapping/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/bilstapping/CarFill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/bilstapping/CarPlate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/bilstapping/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/bilstapping/Plate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/cinema/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/cinema/MovieScreening.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/cinema/MovieTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/cinema/Stage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/cinema/StageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/counter/Counter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/counter1/Counter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/counter1/CounterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/exceptions/Feiltyper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/exceptions/UlovligRadiusUnntak.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/file/File.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/file/Folder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/files/ImprovisedFilesLecture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/filmvisning/Film.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/filmvisning/Filmvisning.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/filmvisning/Sal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/functional/NameComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/functional/NameMatchPredicate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/functional/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/functional/PersonReg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/fxml/Car2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/fxml/CarApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/fxml/CarController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/fxml/CarGUI.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/fxml/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/fxml/Plate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/iterators/HighNumberIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/iterators/IteratorPlayground.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/iterators/kodeeksempel 2019-03-04.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/minesweeper/App.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/minesweeper/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/minesweeper/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/minesweeper/Gameboard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/minesweeper/Highscore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/minesweeper/MinesweeperController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/minesweeper/MinesweeperIO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/minesweeper/MinesweeperIOInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/minesweeper/MinesweeperObjectLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/minesweeper/MinesweeperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/minesweeper/MyButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/minesweeper/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/minesweeper/Piece.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/of12/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/of12/AccountTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/of12/Card.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/of12/Partner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/of12/PartnerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/of12/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/of3/ImperialToMetricConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/of3/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/of6/App.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/of6/CleaningController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/of6/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/of6/Room.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/of6/Vask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/of7/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/of7/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/of7/ShoppingCart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/of8/Athlete.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/of8/CrossCountrySkier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/of8/Medal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/of8/MedalsComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/of8/SkiJumper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/of9/App.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/of9/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/of9/LanekassenController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/of9/LanekassenIO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/of9/LanekassenIOInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/of9/LanekassenKalkulator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/of9/LanekassenObjectLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/of9/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/oppsummering/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/oppsummering/EksamensVakt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/oppsummering/ExamListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/oppsummering/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/oppsummering/StudentComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/oppsummering/UniversityIO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/person/NameValidationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/person/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/person/Point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/uke1/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/uke1/Digit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/uke1/LineEditor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/uke1/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/uke1/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/uke1/Stopwatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/src/uke1/UpOrDownCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/classes/fxml/CarGUI.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/classes/iterators/kodeeksempel 2019-03-04.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/classes/minesweeper/App.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/classes/of6/App.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/classes/of9/App.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/classes/uke1/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/classes/uke1/Digit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/classes/uke1/LineEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/classes/uke1/Location.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/classes/uke1/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/classes/uke1/Stopwatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/classes/uke1/UpOrDownCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/abstraktklasse/Bok.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/abstraktklasse/Card.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/abstraktklasse/CardContainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/abstraktklasse/CardDeck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/abstraktklasse/CardHand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/abstraktklasse/CardList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/abstraktklasse/Roman.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/abstraktklasse/Tegneseriealbum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/bilstapping/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/bilstapping/CarFill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/bilstapping/CarPlate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/bilstapping/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/bilstapping/Plate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/cinema/Movie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/cinema/MovieScreening.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/cinema/MovieTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/cinema/Stage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/cinema/StageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/counter/Counter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/counter1/Counter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/counter1/CounterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/exceptions/Feiltyper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/exceptions/UlovligRadiusUnntak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/file/File.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/file/Folder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/files/ImprovisedFilesLecture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/filmvisning/Film.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/filmvisning/Filmvisning.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/filmvisning/Sal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/functional/NameComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/functional/NameMatchPredicate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/functional/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/functional/PersonReg$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/functional/PersonReg$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/functional/PersonReg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/fxml/Car2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/fxml/CarApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/fxml/CarController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/fxml/CarGUI.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/fxml/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/fxml/Plate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/iterators/HighNumberIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/iterators/IteratorPlayground.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/iterators/kodeeksempel 2019-03-04.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/minesweeper/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/minesweeper/App.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/minesweeper/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/minesweeper/Gameboard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/minesweeper/Highscore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/minesweeper/MinesweeperController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/minesweeper/MinesweeperIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/minesweeper/MinesweeperIOInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/minesweeper/MinesweeperObjectLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/minesweeper/MinesweeperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/minesweeper/MyButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/minesweeper/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/minesweeper/Piece.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/of12/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/of12/AccountTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/of12/Card.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/of12/Partner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/of12/PartnerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/of12/package-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/of3/ImperialToMetricConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/of3/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/of6/App.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/of6/CleaningController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/of6/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/of6/Room.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/of6/Vask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/of7/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/of7/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/of7/ShoppingCart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/of8/Athlete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/of8/CrossCountrySkier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/of8/Medal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/of8/MedalsComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/of8/SkiJumper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/of9/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/of9/App.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/of9/LanekassenController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/of9/LanekassenIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/of9/LanekassenIOInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/of9/LanekassenKalkulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/of9/LanekassenObjectLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/of9/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/oppsummering/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/oppsummering/EksamensVakt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/oppsummering/ExamListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/oppsummering/Student$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/oppsummering/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/oppsummering/StudentComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/oppsummering/UniversityIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/person/NameValidationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/person/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/person/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/uke1/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/uke1/Digit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/uke1/LineEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/uke1/Location.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/uke1/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/uke1/Stopwatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/target/test-classes/uke1/UpOrDownCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minegenkode/øvingsforelesning.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/Minesweeper.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/ovinger.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/ovinger.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/app/App.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/app/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/app/Bedriftspresentasjon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/app/Bindeleddet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/app/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/app/StudentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/debugging/CoffeeCup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/debugging/CoffeeCupProgram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/debugging/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/debugging/StringMergingIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/debugging/StringMergingIteratorProgram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/encapsulation.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/encapsulation/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/encapsulation/CardDeck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/encapsulation/Digit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/encapsulation/LineEditor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/encapsulation/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/encapsulation/Nim.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/encapsulation/NimPile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/encapsulation/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/encapsulation/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/encapsulation/RPNCalc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/encapsulation/RandomStringGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/encapsulation/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/encapsulation/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/encapsulation/StopWatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/encapsulation/UpOrDownCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/encapsulation/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/inheritance/AbstractAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/inheritance/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/inheritance/BSU.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/inheritance/Card.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/inheritance/CardContainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/inheritance/CardContainerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/inheritance/CardDeck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/inheritance/CardHand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/inheritance/CargoCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/inheritance/DebitAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/inheritance/ForeldreSpar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/inheritance/PassengerCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/inheritance/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/inheritance/SavingsAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/inheritance/SavingsAccount2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/inheritance/Train.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/inheritance/TrainCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/interfaces/BinaryComputingIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/interfaces/Card.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/interfaces/CardComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/interfaces/CardContainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/interfaces/CardContainerIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/interfaces/CardDeck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/interfaces/CardHand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/interfaces/CardTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/interfaces/Named.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/interfaces/NamedComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/interfaces/NamedComparatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/interfaces/Person1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/interfaces/Person2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/interfaces/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/interfaces/StringGrid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/interfaces/StringGridImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/interfaces/StringGridIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/interfaces/twitter/FollowersCountComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/interfaces/twitter/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/interfaces/twitter/Tweet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/interfaces/twitter/TweetsCountComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/interfaces/twitter/TwitterAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/interfaces/twitter/UserNameComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/minesweeper/App.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/minesweeper/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/minesweeper/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/minesweeper/Gameboard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/minesweeper/Grid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/minesweeper/Highscore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/minesweeper/MinesweeperController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/minesweeper/MinesweeperController2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/minesweeper/MinesweeperIO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/minesweeper/MinesweeperIOInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/minesweeper/MinesweeperObjectLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/minesweeper/MyButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/minesweeper/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/minesweeper/Piece.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/objectstructures/Card.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/objectstructures/Card.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/objectstructures/CardDeck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/objectstructures/CardHand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/objectstructures/Partner.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/objectstructures/Partner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/objectstructures/Person.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/objectstructures/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/objectstructures/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/objectstructures/StopWatch.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/objectstructures/StopWatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/objectstructures/StopWatchManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/objectstructures/Tweet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/objectstructures/Twitter.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/objectstructures/TwitterAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/patterns/delegation/DistributingLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/patterns/delegation/FilteringLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/patterns/delegation/ILogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/patterns/delegation/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/patterns/delegation/StreamLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/patterns/delegation/office/Clerk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/patterns/delegation/office/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/patterns/delegation/office/Manager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/patterns/delegation/office/Printer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/patterns/delegation/office/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/patterns/observable/HighscoreList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/patterns/observable/HighscoreListListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/patterns/observable/HighscoreListProgram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/patterns/observable/ObservableHighscoreList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/patterns/observable/ObservableHighscoreListProgram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/patterns/observable/ObservableList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/patterns/observable/ObservableListListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/patterns/observable/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/patterns/observable/SmartStock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/patterns/observable/Stock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/patterns/observable/StockIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/patterns/observable/StockListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/stateandbehavior.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/stateandbehavior/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/stateandbehavior/Digit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/stateandbehavior/LineEditor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/stateandbehavior/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/stateandbehavior/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/stateandbehavior/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/stateandbehavior/StopWatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/stateandbehavior/UpOrDownCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/src/test/App.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/debugging/CoffeeCup.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/encapsulation/AccountTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/encapsulation/Card.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/encapsulation/CardDeck.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/encapsulation/CardDeckTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/encapsulation/CardTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/encapsulation/DigitTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/encapsulation/LineEditorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/encapsulation/LocationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/encapsulation/Nim.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/encapsulation/NimTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/encapsulation/PersonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/encapsulation/PersonTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/encapsulation/RPNCalc.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/encapsulation/RPNCalcTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/encapsulation/RectangleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/encapsulation/StopWatchTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/encapsulation/UpOrDownCounterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/encapsulation/VehicleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/inheritance/AbstractAccount.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/inheritance/BSUTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/inheritance/CardContainerImpl.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/inheritance/CardDeckTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/inheritance/CardHandTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/inheritance/CargoCarTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/inheritance/CreditAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/inheritance/CreditAccountTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/inheritance/DebitAccountTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/inheritance/ForeldreSparTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/inheritance/PassengerCarTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/inheritance/SavingsAccount.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/inheritance/SavingsAccount2Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/inheritance/SavingsAccountTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/inheritance/Train.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/inheritance/TrainCarTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/inheritance/TrainTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/interfaces/BinaryComputingIterator.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/interfaces/BinaryComputingIteratorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/interfaces/CardComparatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/interfaces/CardComparison.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/interfaces/CardContainer.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/interfaces/CardContainerIteratorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/interfaces/CardDeckTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/interfaces/CardHandTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/interfaces/CardPredicate.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/interfaces/CardPredicateTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/interfaces/Named.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/interfaces/Person1Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/interfaces/Person2Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/interfaces/RPNCalc.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/interfaces/RPNCalcTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/interfaces/StringGrid.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/interfaces/StringGridTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/interfaces/twitter/FollowersCountComparatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/interfaces/twitter/TweetsCountComparatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/interfaces/twitter/TwitterAccountTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/interfaces/twitter/TwitterComparison.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/interfaces/twitter/UserNameComparatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/objectstructures/Card.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/objectstructures/CardDeckTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/objectstructures/CardHandTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/objectstructures/CardTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/objectstructures/PartnerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/objectstructures/Person.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/objectstructures/PersonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/objectstructures/StopWatch.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/objectstructures/StopWatchManagerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/objectstructures/StopWatchTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/objectstructures/TweetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/objectstructures/Twitter.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/objectstructures/TwitterAccountTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/patterns/delegation/DistributingLoggerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/patterns/delegation/FilteringLoggerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/patterns/delegation/Logger.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/patterns/delegation/StreamLoggerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/patterns/delegation/office/ClerkTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/patterns/delegation/office/ClerkTest$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/patterns/delegation/office/ClerkTest$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/patterns/delegation/office/ClerkTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/patterns/delegation/office/ManagerTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/patterns/delegation/office/ManagerTest$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/patterns/delegation/office/ManagerTest$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/patterns/delegation/office/ManagerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/patterns/delegation/office/Office.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/patterns/delegation/office/PrinterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/patterns/observable/HighScoreList.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/patterns/observable/HighscoreListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/patterns/observable/ObservableHighscoreListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/patterns/observable/ObservableListInheritance.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/patterns/observable/ObservableListTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/patterns/observable/ObservableListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/patterns/observable/SmartStockTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/patterns/observable/Stock.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/patterns/observable/StockIndexTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/patterns/observable/StockTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/stateandbehavior/AccountTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/stateandbehavior/DigitTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/stateandbehavior/LineEditorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/stateandbehavior/LocationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/stateandbehavior/RectangleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/stateandbehavior/StopWatchTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/classes/stateandbehavior/UpOrDownCounterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/app/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/app/App.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/app/Bedriftspresentasjon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/app/Bindeleddet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/app/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/app/StudentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/debugging/CoffeeCup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/debugging/CoffeeCupProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/debugging/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/debugging/StringMergingIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/debugging/StringMergingIteratorProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/encapsulation.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/encapsulation/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/encapsulation/CardDeck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/encapsulation/Digit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/encapsulation/LineEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/encapsulation/Location.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/encapsulation/Nim.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/encapsulation/NimPile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/encapsulation/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/encapsulation/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/encapsulation/RPNCalc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/encapsulation/RandomStringGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/encapsulation/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/encapsulation/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/encapsulation/StopWatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/encapsulation/UpOrDownCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/encapsulation/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/inheritance/AbstractAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/inheritance/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/inheritance/BSU.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/inheritance/Card.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/inheritance/CardContainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/inheritance/CardContainerImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/inheritance/CardDeck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/inheritance/CardHand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/inheritance/CargoCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/inheritance/DebitAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/inheritance/ForeldreSpar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/inheritance/PassengerCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/inheritance/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/inheritance/SavingsAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/inheritance/SavingsAccount2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/inheritance/Train.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/inheritance/TrainCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/interfaces/BinaryComputingIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/interfaces/Card.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/interfaces/CardComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/interfaces/CardContainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/interfaces/CardContainerIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/interfaces/CardDeck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/interfaces/CardHand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/interfaces/CardTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/interfaces/Named.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/interfaces/NamedComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/interfaces/NamedComparatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/interfaces/Person1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/interfaces/Person2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/interfaces/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/interfaces/StringGrid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/interfaces/StringGridImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/interfaces/StringGridIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/interfaces/twitter/FollowersCountComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/interfaces/twitter/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/interfaces/twitter/Tweet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/interfaces/twitter/TweetsCountComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/interfaces/twitter/TwitterAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/interfaces/twitter/UserNameComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/minesweeper/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/minesweeper/App.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/minesweeper/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/minesweeper/Gameboard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/minesweeper/Grid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/minesweeper/Highscore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/minesweeper/MinesweeperController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/minesweeper/MinesweeperController2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/minesweeper/MinesweeperIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/minesweeper/MinesweeperIOInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/minesweeper/MinesweeperObjectLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/minesweeper/MyButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/minesweeper/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/minesweeper/Piece.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/objectstructures/Card.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/objectstructures/Card.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/objectstructures/CardDeck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/objectstructures/CardHand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/objectstructures/Partner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/objectstructures/Partner.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/objectstructures/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/objectstructures/Person.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/objectstructures/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/objectstructures/StopWatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/objectstructures/StopWatch.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/objectstructures/StopWatchManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/objectstructures/Tweet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/objectstructures/Twitter.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/objectstructures/TwitterAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/patterns/delegation/DistributingLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/patterns/delegation/FilteringLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/patterns/delegation/ILogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/patterns/delegation/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/patterns/delegation/StreamLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/patterns/delegation/office/Clerk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/patterns/delegation/office/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/patterns/delegation/office/Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/patterns/delegation/office/Printer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/patterns/delegation/office/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/patterns/observable/HighscoreList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/patterns/observable/HighscoreListListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/patterns/observable/HighscoreListProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/patterns/observable/ObservableHighscoreList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/patterns/observable/ObservableHighscoreListProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/patterns/observable/ObservableList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/patterns/observable/ObservableListListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/patterns/observable/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/patterns/observable/SmartStock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/patterns/observable/Stock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/patterns/observable/StockIndex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/patterns/observable/StockListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/stateandbehavior.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/stateandbehavior/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/stateandbehavior/Digit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/stateandbehavior/LineEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/stateandbehavior/Location.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/stateandbehavior/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/stateandbehavior/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/stateandbehavior/StopWatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/stateandbehavior/UpOrDownCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/target/test-classes/test/App.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/debugging/CoffeeCup.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/encapsulation/AccountTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/encapsulation/Card.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/encapsulation/CardDeck.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/encapsulation/CardDeckTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/encapsulation/CardTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/encapsulation/DigitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/encapsulation/LineEditorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/encapsulation/LocationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/encapsulation/Nim.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/encapsulation/NimTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/encapsulation/PersonTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/encapsulation/PersonTest2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/encapsulation/RPNCalc.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/encapsulation/RPNCalcTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/encapsulation/RectangleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/encapsulation/StopWatchTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/encapsulation/UpOrDownCounterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/encapsulation/VehicleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/inheritance/AbstractAccount.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/inheritance/BSUTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/inheritance/CardContainerImpl.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/inheritance/CardDeckTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/inheritance/CardHandTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/inheritance/CargoCarTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/inheritance/CreditAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/inheritance/CreditAccountTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/inheritance/DebitAccountTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/inheritance/ForeldreSparTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/inheritance/PassengerCarTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/inheritance/SavingsAccount.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/inheritance/SavingsAccount2Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/inheritance/SavingsAccountTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/inheritance/Train.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/inheritance/TrainCarTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/inheritance/TrainTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/interfaces/BinaryComputingIterator.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/interfaces/BinaryComputingIteratorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/interfaces/CardComparatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/interfaces/CardComparison.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/interfaces/CardContainer.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/interfaces/CardContainerIteratorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/interfaces/CardDeckTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/interfaces/CardHandTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/interfaces/CardPredicate.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/interfaces/CardPredicateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/interfaces/Named.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/interfaces/NamedComparatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/interfaces/Person1Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/interfaces/Person2Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/interfaces/RPNCalc.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/interfaces/RPNCalcTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/interfaces/StringGrid.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/interfaces/StringGridTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/interfaces/twitter/FollowersCountComparatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/interfaces/twitter/TweetsCountComparatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/interfaces/twitter/TwitterAccountTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/interfaces/twitter/TwitterComparison.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/interfaces/twitter/UserNameComparatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/objectstructures/Card.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/objectstructures/CardDeckTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/objectstructures/CardHandTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/objectstructures/CardTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/objectstructures/PartnerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/objectstructures/Person.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/objectstructures/PersonTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/objectstructures/StopWatch.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/objectstructures/StopWatchManagerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/objectstructures/StopWatchTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/objectstructures/TweetTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/objectstructures/Twitter.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/objectstructures/TwitterAccountTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/patterns/delegation/DistributingLoggerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/patterns/delegation/FilteringLoggerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/patterns/delegation/Logger.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/patterns/delegation/StreamLoggerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/patterns/delegation/office/ClerkTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/patterns/delegation/office/ManagerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/patterns/delegation/office/Office.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/patterns/delegation/office/PrinterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/patterns/observable/HighScoreList.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/patterns/observable/HighscoreListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/patterns/observable/ObservableHighscoreListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/patterns/observable/ObservableListInheritance.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/patterns/observable/ObservableListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/patterns/observable/SmartStockTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/patterns/observable/Stock.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/patterns/observable/StockIndexTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/patterns/observable/StockTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/stateandbehavior/AccountTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/stateandbehavior/DigitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/stateandbehavior/LineEditorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/stateandbehavior/LocationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/stateandbehavior/RectangleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/stateandbehavior/StopWatchTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ovinger/tests/stateandbehavior/UpOrDownCounterTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,22 +711,24 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/exam2018/Dice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+            <state relative-caret-position="545">
+              <caret line="141" column="31" lean-forward="true" selection-start-line="141" selection-start-column="31" selection-end-line="141" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#484#485#0" expanded="true" />
                 <element signature="e#526#527#0" expanded="true" />
-                <element signature="e#1609#1610#0" expanded="true" />
-                <element signature="e#1633#1634#0" expanded="true" />
-                <element signature="e#1834#1835#0" expanded="true" />
-                <element signature="e#1867#1868#0" expanded="true" />
-                <element signature="e#1929#1930#0" expanded="true" />
-                <element signature="e#1948#1949#0" expanded="true" />
-                <element signature="e#2233#2234#0" expanded="true" />
-                <element signature="e#2253#2254#0" expanded="true" />
-                <element signature="e#2512#2513#0" expanded="true" />
-                <element signature="e#2540#2541#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
+                <element signature="e#1673#1674#0" expanded="true" />
+                <element signature="e#1703#1704#0" expanded="true" />
+                <element signature="e#1906#1907#0" expanded="true" />
+                <element signature="e#1982#1983#0" expanded="true" />
+                <element signature="e#2007#2008#0" expanded="true" />
+                <element signature="e#2026#2027#0" expanded="true" />
+                <element signature="e#2254#2255#0" expanded="true" />
+                <element signature="e#2288#2289#0" expanded="true" />
+                <element signature="e#2571#2572#0" expanded="true" />
+                <element signature="e#2610#2611#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,7 +778,7 @@
         <entry file="file://$PROJECT_DIR$/src/exam2018/DiceScorer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -98,6 +795,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>dievalues</find>
+      <find>valueof</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,7 +849,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554720621895" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554726303793" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -170,6 +868,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Dice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam2018.Dice" />
+      <module name="Eksamensoppgaver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exam2018.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Dice" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -180,12 +898,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554711126307</updated>
-      <workItem from="1554711130629" duration="6360000" />
+      <workItem from="1554711130629" duration="8155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6360000" />
+    <option name="totallyTimeSpent" value="8155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1298" height="1200" extended-state="6" />
@@ -196,8 +914,9 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1687898" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1687898" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" weight="0.32944345" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
@@ -205,7 +924,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32944345" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -254,28 +973,30 @@
     <entry file="file://$PROJECT_DIR$/src/exam2018/DiceScorer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exam2018/Dice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        <state relative-caret-position="545">
+          <caret line="141" column="31" lean-forward="true" selection-start-line="141" selection-start-column="31" selection-end-line="141" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#484#485#0" expanded="true" />
             <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#1609#1610#0" expanded="true" />
-            <element signature="e#1633#1634#0" expanded="true" />
-            <element signature="e#1834#1835#0" expanded="true" />
-            <element signature="e#1867#1868#0" expanded="true" />
-            <element signature="e#1929#1930#0" expanded="true" />
-            <element signature="e#1948#1949#0" expanded="true" />
-            <element signature="e#2233#2234#0" expanded="true" />
-            <element signature="e#2253#2254#0" expanded="true" />
-            <element signature="e#2512#2513#0" expanded="true" />
-            <element signature="e#2540#2541#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#1673#1674#0" expanded="true" />
+            <element signature="e#1703#1704#0" expanded="true" />
+            <element signature="e#1906#1907#0" expanded="true" />
+            <element signature="e#1982#1983#0" expanded="true" />
+            <element signature="e#2007#2008#0" expanded="true" />
+            <element signature="e#2026#2027#0" expanded="true" />
+            <element signature="e#2254#2255#0" expanded="true" />
+            <element signature="e#2288#2289#0" expanded="true" />
+            <element signature="e#2571#2572#0" expanded="true" />
+            <element signature="e#2610#2611#0" expanded="true" />
           </folding>
         </state>
       </provider>
