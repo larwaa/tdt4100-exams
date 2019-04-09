@@ -63,7 +63,32 @@ public class Diner {
 	public Collection<Table> findAvailableTables(int capacity){
 		return tables.stream()
 				.filter(t -> this.hasCapacity(t, capacity))
-				.sorted(Comparator.comparingInt(Table::getSeats))
+				.sorted(Comparator.comparingInt(Table::getSeats).reversed())
 				.collect(toList());
+	}
+
+	public Seating createSeating(Group group){
+		Collection<Table> availableTables = findAvailableTables(group.getGuestCount());
+		if (availableTables.isEmpty()){
+			return null;
+		}
+		return new Seating(availableTables.iterator().next(), group);
+	}
+
+	public boolean addSeating(Group group){
+		Seating seating = createSeating(group);
+		if (seating != null){
+			seatings.add(seating);
+			return true;
+		}
+		return false;
+	}
+
+	public void removeSeating(int tableNum){
+		for (Seating seating : seatings){
+			if (seating.getTable().getTableID() == tableNum){
+				seatings.remove(seating);
+			}
+		}
 	}
 }
