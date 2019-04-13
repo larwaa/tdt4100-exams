@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collectors;
 
 import static java.util.stream.Collectors.toList;
 
@@ -12,6 +11,7 @@ public class Diner {
 
 	private Collection<Table> tables = new ArrayList<>();
 	private List<Seating> seatings = new ArrayList<>();
+	private List<CapacityListener> capacityListeners = new ArrayList<>();
 
 	public boolean isOccupied(Table table){
 		return seatings.stream()
@@ -33,7 +33,12 @@ public class Diner {
 	public void addTable(Table table){
 		if (! tables.contains(table)){
 			tables.add(table);
+			capacityChanged();
 		}
+	}
+
+	private void capacityChanged(){
+		capacityListeners.forEach(capacityListener -> capacityListener.capacityChanged(this));
 	}
 
 	public void removeTable(Table table){
@@ -41,22 +46,27 @@ public class Diner {
 			throw new IllegalStateException("Someone's sitting here...");
 		}
 		tables.remove(table);
+		capacityChanged();
 	}
 
 	public void mergeTables(Table table1, Table table2, int lostCapacity){
 		removeTable(table1);
 		removeTable(table2);
-		Table table = new Table(table1.getSeats() + table2.getSeats() - lostCapacity);
+		Table table = new CompositeTable(table1, table2, lostCapacity);
 		tables.add(table);
+		if (lostCapacity != 0){
+			capacityChanged();
+		}
 	}
 
-	public void splitTable(Table table, int capacity1, int capacity2){
+	public void splitTable(CompositeTable table){
 		removeTable(table);
-		tables.add(new Table(capacity1));
-		tables.add(new Table(capacity2));
+		tables.add(table.getTable1());
+		tables.add(table.getTable2());
+		capacityChanged();
 	}
 
-	public boolean hasCapacity(Table table, int capacity){
+	private boolean hasCapacity(Table table, int capacity){
 		return (!isOccupied(table) && table.getSeats() >= capacity);
 	}
 
@@ -67,7 +77,7 @@ public class Diner {
 				.collect(toList());
 	}
 
-	public Seating createSeating(Group group){
+	private Seating createSeating(Group group){
 		Collection<Table> availableTables = findAvailableTables(group.getGuestCount());
 		if (availableTables.isEmpty()){
 			return null;
@@ -79,6 +89,7 @@ public class Diner {
 		Seating seating = createSeating(group);
 		if (seating != null){
 			seatings.add(seating);
+			capacityChanged();
 			return true;
 		}
 		return false;
@@ -88,7 +99,18 @@ public class Diner {
 		for (Seating seating : seatings){
 			if (seating.getTable().getTableID() == tableNum){
 				seatings.remove(seating);
+				capacityChanged();
 			}
 		}
+	}
+
+	public void addCapacityListener(CapacityListener capacityListener){
+		if (! capacityListeners.contains(capacityListener)){
+			capacityListeners.add(capacityListener);
+		}
+	}
+
+	public void removeCapacityListener(CapacityListener capacityListener){
+		capacityListeners.remove(capacityListener);
 	}
 }

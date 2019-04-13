@@ -6,6 +6,16 @@ public class Table {
 	private final int seats;
 	private final int num;
 
+	public Table(){
+		this.seats = 0;
+		this.num = tableID++;
+	}
+
+	public Table(int seats, int tableID){
+		this.seats = seats;
+		this.num = tableID;
+	}
+
 	public Table(int seats){
 		this.seats = seats;
 		this.num = tableID++;
