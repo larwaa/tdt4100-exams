@@ -1,12 +1,16 @@
 package exam2016;
 
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Iterator;
+import java.util.stream.Collectors;
 
 public class Person implements Iterable<Person> {
 
 	private Person mother, father;
-	private Gender gender;
-	private String name;
+	private Gender gender = null;
+	private final String name;
+	private Collection<Person> children = new ArrayList<>();
 
 	public Person(String name){
 		this.name = name;
@@ -28,38 +32,26 @@ public class Person implements Iterable<Person> {
 		return this.name;
 	}
 
-	public void setGender(String label){
-		gender = Gender.valueOf(label);
+	public void setGender(Gender gender){
+		this.gender = gender;
 	}
 
-
-			... methods for name, gender, mother and father ...
-
-			... field(s) for children ...
-
-	/**
-	 * @return the number of children of this Person
-	 */
-	public int getChildCount() {
-      ...
+	public int getChildCount(){
+		return children.size();
 	}
 
-	/**
-	 * @param child
-	 * @return if this Person has the provided Person as a child
-	 */
 	public boolean hasChild(Person child) {
-      ...
+      return children.contains(child);
 	}
 
-	/**
-	 * Returns all children of this Person with the provided Gender.
-	 * If gender is null, all children are returned.
-	 * Can be used to get all daughters or sons of a person.
-	 * @param gender
-	 */
 	public Collection<Person> getChildren(Gender gender) {
-      ...
+		if (gender == null){
+			return children;
+		}
+
+  		return children.stream()
+			  			.filter(person -> person.getGender() == gender)
+			  			.collect(Collectors.toList());
 	}
 
 	/**
@@ -72,6 +64,35 @@ public class Person implements Iterable<Person> {
 	 * @param child
 	 */
 	public void addChild(Person child) {
-      ...
+
+		if (gender == Gender.MALE) {
+			if (child.father != null){
+				child.father.children.remove(child);
+			}
+			child.father = this;
+		}
+		else if (gender == Gender.FEMALE){
+			if (child.mother != null){
+				child.mother.children.remove(child);
+			}
+			child.mother = this;
+		}
+		else {
+			throw new IllegalStateException("Parents must have a gender");
+		}
+		children.add(child);
+	}
+
+	//father2 har nå fått nytt kjønn, og da burde man sjekke at child.mother == father2, dog så vil fortsatt child ha father2 som far, så denne koblingen burde nok endres ved setGender.
+	//Det siste burde utløse et unntak, for man kan ikke barn av sitt eget barn. Den nåværende koden tillater derimot dette.
+
+	// Dette betyr at vi enkelt kan skrive ne for løkke for å iterere gjennom hvert barn til person, typ for (Person child : person) ...
+	public Iterator<Person> iterator(){
+		return children.iterator();
+	}
+
+
+	public static void main(String[] args){
+		Relation daughter = parent -> parent.getChildren(Gender.FEMALE);
 	}
 }
