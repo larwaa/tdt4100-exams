@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/exam2012/DayPlan.java" line="52" mnemonic="9" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="aa0625ed-4fc9-44ac-96cd-51f4e23eaaa8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exam2014/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exam2015/ArrivalNotifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exam2015/ArrivalObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exam2015/Path.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exam2015/Segment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exam2015/Trip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exam2012/DayPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exam2012/DayTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exam2012/DelegatingDayPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exam2012/TDT4100DayPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exam2012/TDT4100Lecture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exam2012/TimeSlot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exam2017/DinerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exam2017/DinerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../minegenkode/.classpath" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../minegenkode/.project" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../minegenkode/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
@@ -718,10 +720,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exam2018/Dice.java">
+        <entry file="file://$PROJECT_DIR$/src/exam2014/Question.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2499">
-              <caret line="133" selection-start-line="133" selection-end-line="133" />
+            <state relative-caret-position="162">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -730,82 +732,87 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exam2015/Person.java">
+        <entry file="file://$PROJECT_DIR$/src/exam2012/TimeSlot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="194">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#105#106#0" expanded="true" />
-                <element signature="e#119#120#0" expanded="true" />
-                <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#427#428#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+                <element signature="e#880#881#0" expanded="true" />
+                <element signature="e#902#903#0" expanded="true" />
+                <element signature="e#934#935#0" expanded="true" />
+                <element signature="e#974#975#0" expanded="true" />
+                <element signature="e#1008#1009#0" expanded="true" />
+                <element signature="e#1020#1021#0" expanded="true" />
+                <element signature="e#1363#1364#0" expanded="true" />
+                <element signature="e#1436#1437#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exam2015/Path.java">
+        <entry file="file://$PROJECT_DIR$/src/exam2012/DayPlan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="260">
+              <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#176#177#0" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
-                <element signature="e#448#449#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-                <element signature="e#585#586#0" expanded="true" />
-                <element signature="e#617#618#0" expanded="true" />
-                <element signature="e#2001#2002#0" expanded="true" />
-                <element signature="e#2022#2023#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
+                <element signature="e#706#707#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exam2015/Trip.java">
+        <entry file="file://$PROJECT_DIR$/src/exam2012/TDT4100Lecture.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="718">
-              <caret line="42" column="29" lean-forward="true" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+            <state relative-caret-position="105">
+              <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+              <folding>
+                <element signature="e#92#93#0" expanded="true" />
+                <element signature="e#130#131#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exam2015/ArrivalNotifier.java">
+        <entry file="file://$PROJECT_DIR$/src/exam2012/TDT4100DayPlan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="126">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/exam2014/Question.java">
+        <entry file="file://$PROJECT_DIR$/src/exam2012/DelegatingDayPlan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="525">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#607#608#0" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exam2015/ArrivalObserver.java">
+        <entry file="file://$PROJECT_DIR$/src/exam2012/DayTime.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="84">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+              <folding>
+                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -825,7 +832,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
+            <state relative-caret-position="14952">
               <caret line="735" column="12" selection-start-line="735" selection-start-column="12" selection-end-line="735" selection-end-column="12" />
             </state>
           </provider>
@@ -834,16 +841,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exam2015/Segment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-              <folding>
-                <element signature="e#221#222#0" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#268#269#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="315">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -897,6 +896,12 @@
         <option value="$PROJECT_DIR$/src/exam2015/ArrivalObserver.java" />
         <option value="$PROJECT_DIR$/src/exam2015/ArrivalNotifier.java" />
         <option value="$PROJECT_DIR$/src/exam2014/Question.java" />
+        <option value="$PROJECT_DIR$/src/exam2012/DayTime.java" />
+        <option value="$PROJECT_DIR$/src/exam2012/TimeSlot.java" />
+        <option value="$PROJECT_DIR$/src/exam2012/TDT4100Lecture.java" />
+        <option value="$PROJECT_DIR$/src/exam2012/TDT4100DayPlan.java" />
+        <option value="$PROJECT_DIR$/src/exam2012/DayPlan.java" />
+        <option value="$PROJECT_DIR$/src/exam2012/DelegatingDayPlan.java" />
       </list>
     </option>
   </component>
@@ -912,6 +917,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -928,14 +934,13 @@
               <item name="Eksamensoppgaver" type="b2602c69:ProjectViewProjectNode" />
               <item name="Eksamensoppgaver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="exam2014" type="462c0819:PsiDirectoryNode" />
+              <item name="exam2012" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1016,18 +1021,19 @@
       <workItem from="1555779166063" duration="277000" />
       <workItem from="1556036127489" duration="1227000" />
       <workItem from="1556037723552" duration="6196000" />
-      <workItem from="1556626254995" duration="6581000" />
+      <workItem from="1556626254995" duration="6623000" />
+      <workItem from="1556694252955" duration="4882000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32221000" />
+    <option name="totallyTimeSpent" value="37145000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1230" height="1200" extended-state="6" />
+    <frame x="0" y="0" width="1100" height="1200" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17676768" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20037808" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1036,7 +1042,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32944345" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32944345" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1044,7 +1050,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946752" weight="0.32944345" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4978701" weight="0.32944345" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4978701" visible="true" weight="0.32944345" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5021299" side_tool="true" weight="0.32944345" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32944345" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1262,9 +1268,10 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/exam2014.java" />
     <entry file="file://$PROJECT_DIR$/src/exam2018/Dice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2499">
+        <state relative-caret-position="2478">
           <caret line="133" selection-start-line="133" selection-end-line="133" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1274,22 +1281,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exam2015/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="588">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#119#120#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/List.java">
+    <entry file="file://$PROJECT_DIR$/src/exam2015/Path.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="735" column="12" selection-start-line="735" selection-start-column="12" selection-end-line="735" selection-end-column="12" />
+        <state relative-caret-position="210">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exam2015/Trip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exam2015/ArrivalNotifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exam2015/ArrivalObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1303,75 +1334,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14952">
+          <caret line="735" column="12" selection-start-line="735" selection-start-column="12" selection-end-line="735" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/exam2015/Segment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exam2015/Path.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#2001#2002#0" expanded="true" />
-            <element signature="e#2022#2023#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exam2015/Trip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="718">
-          <caret line="42" column="29" lean-forward="true" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exam2014.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exam2015/ArrivalObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exam2015/ArrivalNotifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exam2014/Question.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="162">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exam2012/TimeSlot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1020#1021#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1436#1437#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exam2012/TDT4100Lecture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+          <folding>
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exam2012/DayTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exam2012/TDT4100DayPlan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exam2012/DayPlan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exam2012/DelegatingDayPlan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
