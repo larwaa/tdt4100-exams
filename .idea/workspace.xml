@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa0625ed-4fc9-44ac-96cd-51f4e23eaaa8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/kexam2018/AbstractScorer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kexam2018/Dice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kexam2018/DiceIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kexam2018/DiceObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kexam2018/DiceScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kexam2018/DiceScorer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kexam2018/DiceScorerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kexam2018/DiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kexam2018/Nothing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kexam2018/SingleValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kexam2018/Straight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kexam2017/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kexam2017/Kitchen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kexam2017/KitchenListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kexam2017/Meal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kexam2017/MealTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kexam2017/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kexam2017/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kexam2017/Table.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eksamensoppgaver/exam2015/Path.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Eksamensoppgaver/exam2015/Path.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Eksamensoppgaver/exam2015/Trip.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Eksamensoppgaver/exam2015/Trip.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../minegenkode/.classpath" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../minegenkode/.project" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../minegenkode/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
@@ -725,60 +724,120 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/kexam2018/Dice.java">
+        <entry file="file://$PROJECT_DIR$/src/kexam2018/DiceScorerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+            <state relative-caret-position="533">
+              <caret line="48" column="31" lean-forward="true" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kexam2017/Course.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
               <folding>
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#625#626#0" expanded="true" />
-                <element signature="e#1000#1001#0" expanded="true" />
-                <element signature="e#1038#1039#0" expanded="true" />
-                <element signature="e#1225#1226#0" expanded="true" />
-                <element signature="e#1275#1276#0" expanded="true" />
-                <element signature="e#1955#1956#0" expanded="true" />
-                <element signature="e#1990#1991#0" expanded="true" />
+                <element signature="e#109#110#0" expanded="true" />
+                <element signature="e#120#121#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/kexam2018/DiceObserver.java">
+        <entry file="file://$PROJECT_DIR$/src/kexam2017/Meal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            <state relative-caret-position="624">
+              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#521#522#0" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+                <element signature="e#595#596#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
+                <element signature="e#752#753#0" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/kexam2018/DiceScorerController.java">
+        <entry file="file://$PROJECT_DIR$/src/kexam2017/MealTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+            <state relative-caret-position="382">
+              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kexam2017/Menu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="498">
+              <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1001#1002#0" expanded="true" />
-                <element signature="e#1022#1023#0" expanded="true" />
-                <element signature="e#1065#1066#0" expanded="true" />
-                <element signature="e#1095#1096#0" expanded="true" />
-                <element signature="e#1125#1126#0" expanded="true" />
-                <element signature="e#1132#1133#0" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
+                <element signature="e#811#812#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/kexam2018/DiceScorer.java">
+        <entry file="file://$PROJECT_DIR$/src/kexam2017/Kitchen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="966">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1718#1719#0" expanded="true" />
+                <element signature="e#1738#1739#0" expanded="true" />
+                <element signature="e#1833#1834#0" expanded="true" />
+                <element signature="e#1864#1865#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kexam2017/Table.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="498">
+              <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kexam2017/KitchenListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kexam2017/MenuItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -788,64 +847,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
               <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/kexam2018/DiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/kexam2018/DiceIterator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-              <folding>
-                <element signature="e#103#104#0" expanded="true" />
-                <element signature="e#125#126#0" expanded="true" />
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/kexam2018/SingleValue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/kexam2018/Straight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-              <folding>
-                <element signature="e#95#96#0" expanded="true" />
-                <element signature="e#113#114#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/kexam2018/Nothing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -872,8 +873,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/exam2018/DiceScorer.java" />
-        <option value="$PROJECT_DIR$/src/exam2018/Dice.java" />
         <option value="$PROJECT_DIR$/src/exam2017/Group.java" />
         <option value="$PROJECT_DIR$/src/exam2017/Seating.java" />
         <option value="$PROJECT_DIR$/src/exam2017/SImpleTable.java" />
@@ -917,6 +916,14 @@
         <option value="$PROJECT_DIR$/src/kexam2018/Dice.java" />
         <option value="$PROJECT_DIR$/src/kexam2018/DiceObserver.java" />
         <option value="$PROJECT_DIR$/src/kexam2018/DiceScorerController.java" />
+        <option value="$PROJECT_DIR$/src/kexam2017/Course.java" />
+        <option value="$PROJECT_DIR$/src/kexam2017/MenuItem.java" />
+        <option value="$PROJECT_DIR$/src/kexam2017/Menu.java" />
+        <option value="$PROJECT_DIR$/src/kexam2017/KitchenListener.java" />
+        <option value="$PROJECT_DIR$/src/kexam2017/Kitchen.java" />
+        <option value="$PROJECT_DIR$/src/kexam2017/Table.java" />
+        <option value="$PROJECT_DIR$/src/kexam2017/Meal.java" />
+        <option value="$PROJECT_DIR$/src/kexam2017/MealTest.java" />
       </list>
     </option>
   </component>
@@ -955,13 +962,7 @@
               <item name="Eksamensoppgaver" type="b2602c69:ProjectViewProjectNode" />
               <item name="Eksamensoppgaver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="exam2018" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Eksamensoppgaver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Eksamensoppgaver" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="kexam2018" type="462c0819:PsiDirectoryNode" />
+              <item name="kexam2017" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -994,13 +995,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Path">
+  <component name="RunManager" selected="Application.Meal">
     <configuration name="Dice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exam2018.Dice" />
       <module name="Eksamensoppgaver" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exam2018.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Meal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kexam2017.Meal" />
+      <module name="Eksamensoppgaver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kexam2017.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1023,6 +1037,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Meal" />
         <item itemvalue="Application.Path" />
         <item itemvalue="Application.Dice" />
       </list>
@@ -1049,12 +1064,12 @@
       <workItem from="1556036127489" duration="1227000" />
       <workItem from="1556037723552" duration="6196000" />
       <workItem from="1556626254995" duration="6623000" />
-      <workItem from="1556694252955" duration="13836000" />
+      <workItem from="1556694252955" duration="18166000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46099000" />
+    <option name="totallyTimeSpent" value="50429000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1069" height="1200" extended-state="6" />
@@ -1069,7 +1084,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32944345" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32944345" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1077,7 +1092,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946752" weight="0.32944345" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4978701" visible="true" weight="0.32944345" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4978701" weight="0.32944345" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5021299" side_tool="true" weight="0.32944345" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32944345" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1095,63 +1110,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eksamensoppgaver.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exam2018/DiceScorer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exam2017/GuestManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exam2017/CapacityListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exam2017/Diner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="72" column="29" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1617#1618#0" expanded="true" />
-            <element signature="e#1683#1684#0" expanded="true" />
-            <element signature="e#2756#2757#0" expanded="true" />
-            <element signature="e#2805#2806#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/exam2017/Group.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1560,17 +1518,102 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/kexam2018/DiceScorerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+        <state relative-caret-position="533">
+          <caret line="48" column="31" lean-forward="true" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kexam2017/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kexam2017/MenuItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kexam2017/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1001#1002#0" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1065#1066#0" expanded="true" />
-            <element signature="e#1095#1096#0" expanded="true" />
-            <element signature="e#1125#1126#0" expanded="true" />
-            <element signature="e#1132#1133#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kexam2017/Kitchen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1718#1719#0" expanded="true" />
+            <element signature="e#1738#1739#0" expanded="true" />
+            <element signature="e#1833#1834#0" expanded="true" />
+            <element signature="e#1864#1865#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kexam2017/KitchenListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kexam2017/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kexam2017/Meal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kexam2017/MealTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
         </state>
       </provider>
     </entry>
