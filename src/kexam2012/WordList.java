@@ -63,6 +63,7 @@ public class WordList implements Words {
 			if (pos >= 0){
 				line = line.substring(0, line.indexOf("#")).trim();
 			}
+			System.out.println();
 
 			if (line.indexOf("-") == -1){
 				//Just a normal word!
