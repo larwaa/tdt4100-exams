@@ -1,5 +1,10 @@
 package exam2011;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.List;
+
 public class LeagueTable {
 
 	private final List<String> teams;
@@ -11,7 +16,7 @@ public class LeagueTable {
 
 	public void addMatch(MatchResult matchResult){
 		if (! isParticipants(matchResult.getHomeTeam(), matchResult.getAwayTeam())){
-			throw new IllegalArugmentException("Not participants");
+			throw new IllegalArgumentException("Not participants");
 		}
 		matches.add(matchResult);
 	}

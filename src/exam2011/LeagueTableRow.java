@@ -1,5 +1,9 @@
 package exam2011;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Stream;
+
 public class LeagueTableRow implements Comparable<LeagueTableRow> {
 
 	private int points, homeGoals, awayGoals;
@@ -13,10 +17,10 @@ public class LeagueTableRow implements Comparable<LeagueTableRow> {
 		this.homeGoals = resultStream.filter((result) -> result.isHomeTeam(team))
 								.mapToInt((result) -> result.getGoals(team))
 								.sum().orElse(0);
-		this.awayGoals = resultStream.filter(result) -> result.isAwayTeam(team))
+		this.awayGoals = resultStream.filter((result) -> result.isAwayTeam(team))
 								.mapToInt((result) -> result.getGoals(team))
 								.sum().orElse(0);
-		this.points = resultSteram.mapToInt((result) -> LeagueTableRow.getParticipantPoints(result, team))
+		this.points = resultStream.mapToInt((result) -> LeagueTableRow.getParticipantPoints(result, team))
 								.sum().orElse(0);
 	}
 
@@ -30,7 +34,7 @@ public class LeagueTableRow implements Comparable<LeagueTableRow> {
 
 	public int compareTo(LeagueTableRow o){
 		if (getPoints() == o.getPoints()) {
-			return
+			return 0;
 		}
 		return getPoints() - o.getPoints();
 	}
